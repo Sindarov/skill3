@@ -5,8 +5,8 @@ env = Env()
 env.read_env()
 
 # .env fayl ichidan quyidagilarni o'qiymiz
-BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))  # Bot toekn
-ADMINS = list(os.environ.get("ADMINS"))  # adminlar ro'yxati
-IP = str(os.environ.get("ip"))  # Xosting ip manzili
+BOT_TOKEN =7046405459:AAGxvIUpudkUzglh9-W1ZzAYgXTu0nPYGKA  # Bot toekn
+ADMINS =7099268533,6672752526  # adminlar ro'yxati
+IP =localhost  # Xosting ip manzili
 kanallar = []
 video_kanal = ['@IELTS_CEFR_lesson']
