@@ -11,7 +11,7 @@ db = Database(path_to_db='data.db')
 
 @dp.message_handler(text="🎁Premium Files")
 async def bot_message(message: types.Message):
-    await bot.send_message(message.from_user.id,f"We want to provide you the PREMIUM PACKETS 🎯\n\nEach of the choices below worth 5 points‼", reply_markup=inline.premium_contents())
+    await bot.send_message(message.from_user.id,f"We want to provide you the PREMIUM PACKETS 🎯\n\nEach of the choices below worth 15 points‼", reply_markup=inline.premium_contents())
 
 
     
